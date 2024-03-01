@@ -1,17 +1,9 @@
 {
   "name": "cute-status-codes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Experimental piercer stronghold. No tests.",
   "type": "module",
   "main": "src/index.js",
-  "bin": {
-    "cute-status-codes": "src/cli.js"
-  },
-  "scripts": {
-    "postinstall": "echo 'Installed.`",
-    "test": "node ./src/test.js",
-    "cli": "node ./src/cli.js"
-  },
   "exports": "./src/index.js",
   "keywords": [
     "cute"
